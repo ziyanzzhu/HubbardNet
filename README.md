@@ -2,7 +2,8 @@
 Author: Ziyan (Zoe) Zhu 
 Please send questions or requests to ziyanzhu@stanford.edu
 
-Reference: "HubbardNet: Efficient Predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks." Ziyan Zhu, Marios Mattheakis, Weiwei Pan, Efthimios Kaxiras. ArXiv: 2212:xxxxx
+## Reference:
+"HubbardNet: Efficient Predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks." Ziyan Zhu, Marios Mattheakis, Weiwei Pan, Efthimios Kaxiras. ArXiv: 2212:xxxxx
 
 All scripts have been tested on Google Colab (have options for both CPU/GPU). Can also be run locally. 
 

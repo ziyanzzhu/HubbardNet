@@ -1,5 +1,7 @@
 # HubbardNet: efficient predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks
 
+All scripts have been tested on Google Colab (have options for both CPU/GPU). Can also be run locally. 
+
 
 ## Citation
 For reference of the `HubbardNet` model, please see and cite the following manuscript: 
@@ -12,7 +14,6 @@ Ziyan (Zoe) Zhu: ziyanzhu [at] stanford.edu
 Please contact me with any issues and/or request.
 
 
-All scripts have been tested on Google Colab (have options for both CPU/GPU). Can also be run locally. 
 
 ## List of files: 
 - `matrix_elements.py`: functions to construct Bose-Hubbard model 

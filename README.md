@@ -6,7 +6,7 @@ All scripts have been tested on Google Colab (have options for both CPU/GPU). Ca
 ## Citation
 For reference of the `HubbardNet` model, please see and cite the following manuscript: 
 
-"HubbardNet: Efficient Predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks." Ziyan Zhu, Marios Mattheakis, Weiwei Pan, Efthimios Kaxiras. ArXiv: 2212:13678 (2022)
+"HubbardNet: Efficient Predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks." Ziyan Zhu, Marios Mattheakis, Weiwei Pan, Efthimios Kaxiras. ArXiv: 2212.13678 (2022)
 
 ## Contact 
 Ziyan (Zoe) Zhu: ziyanzhu [at] stanford.edu

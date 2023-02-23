@@ -959,7 +959,7 @@ def train_NN(model_list, N_list, mu_list, U_list, t, V, S, params, fname,
                     
                 iteration += 1
             
-        print('Reset scheduler')
+        # print('Reset scheduler')
         
         
     

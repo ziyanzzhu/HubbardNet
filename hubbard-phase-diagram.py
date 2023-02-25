@@ -8,11 +8,11 @@ Created on Thu Feb 23 10:18:10 2023
 
 import time 
 import torch
-import matplotlib.pyplot as plt
-import matplotlib
-from matplotlib import rc
+#import matplotlib.pyplot as plt
+#import matplotlib
+#from matplotlib import rc
 import numpy as np
-from tqdm import tqdm
+#from tqdm import tqdm
 
 from HubbardNet_gpu import *
 import matrix_element as me
@@ -22,18 +22,19 @@ import os
 from copy import copy
 
 
-plt.rcParams.update({'font.size': 20})
-plt.rc('text',usetex=True)
-#font = {'family':'serif','size':16}
-font = {'family':'serif','size':25, 'serif': ['computer modern roman']}
-plt.rc('font',**font)
-matplotlib.rcParams['text.latex.preamble']=[r'\usepackage{amsmath}']
+#plt.rcParams.update({'font.size': 20})
+#plt.rc('text',usetex=True)
+##font = {'family':'serif','size':16}
+#font = {'family':'serif','size':25, 'serif': ['computer modern roman']}
+#plt.rc('font',**font)
+#matplotlib.rcParams['text.latex.preamble']=[r'\usepackage{amsmath}']
 
 
 # Go to Edit -> Notebook Settings and select "GPU" from the hardware accelerator dropdown. 
 # If this is on, GPU is enabled by default
 
-use_gpu = False
+use_gpu = True
+
 
 # Check to see if gpu is available. If it is, use it else use the cpu
 if torch.cuda.is_available() and use_gpu:
@@ -53,7 +54,7 @@ else:
 
 model_list = []
 
-M = 4
+M = 8
 N_list = [M-1,M,M+1]
 
 w = M
@@ -110,7 +111,7 @@ t0 = time.time()
 
 
 # filepath for excited states
-fname = fpath + "/weights_multi_N_M{}_Umax{}_Umin{}".format(M,np.max(U_train),np.min(U_train),D_hid)
+fname = fpath + "/weights_multi_N_M{}_Umax{}_Umin{}".format(M,np.max(U_train),np.min(U_train))
 
 
 def call_NN(lr, n_excited):

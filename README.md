@@ -1,22 +1,26 @@
 # HubbardNet: efficient predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks
 
-All scripts have been tested on Google Colab (have options for both CPU/GPU). Can also be run locally. 
+All scripts have been tested on Google Colab (have options for both CPU/GPU). Can also run locally. 
 
 
 ## Citation
-For reference of the `HubbardNet` model, please see and cite the following manuscript: 
+For reference to the `HubbardNet` model, please see and cite the following manuscript: 
 
-"HubbardNet: Efficient Predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks." Ziyan Zhu, Marios Mattheakis, Weiwei Pan, Efthimios Kaxiras. ArXiv: 2212.13678 (2022)
+"HubbardNet: Efficient Predictions of the Bose-Hubbard Model Spectrum with Deep Neural Networks." 
+
+Ziyan Zhu, Marios Mattheakis, Weiwei Pan, Efthimios Kaxiras
+
+Phys. Rev. Research 5, 043084 (2023) | ArXiv: 2212.13678
 
 ## Contact 
 Ziyan (Zoe) Zhu: ziyanzhu [at] stanford.edu
 
-Please contact me with any issues and/or request.
+Please contact me with any issues and/or requests.
 
 
 
 ## List of files: 
-- `matrix_elements.py`: functions to construct Bose-Hubbard model 
+- `matrix_elements.py`: functions to construct the Bose-Hubbard model 
 - `HubbardNet_gpu.py`: functions to construct the DNN and train the network
 ### Examples:
 - `iterative_opt_gpu_for_gs.ipynb`: ground state optimization 
